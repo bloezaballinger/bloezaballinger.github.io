@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f7dcf207.css",
+    "main.js": "/static/js/main.87eb9d6a.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/projImg2.jpg": "/static/media/projImg2.3f85f07fa531cd037e86.jpg",
+    "static/media/projImg3.jpg": "/static/media/projImg3.2f4adf63ecc317b0dc87.jpg",
+    "static/media/projImg1.jpg": "/static/media/projImg1.b57ef2bbb36de43c995e.jpg",
+    "static/media/projImg5.jpg": "/static/media/projImg5.7bbb1df1a4e7ee73e388.jpg",
+    "static/media/projImg4.jpg": "/static/media/projImg4.ad860a97c2d293ab904c.jpg",
+    "static/media/projImg6.jpg": "/static/media/projImg6.b81b4373d8e05ca613cb.jpg",
+    "static/media/space-launch.jpg": "/static/media/space-launch.58a08cbf23db49805107.jpg",
+    "static/media/space.jpg": "/static/media/space.b1b6207ae17b42400133.jpg",
+    "static/media/BrianLoezaBallinger-Resume.pdf": "/static/media/BrianLoezaBallinger-Resume.b242c49f8ebf36dd90a3.pdf",
+    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "index.html": "/index.html",
+    "main.f7dcf207.css.map": "/static/css/main.f7dcf207.css.map",
+    "main.87eb9d6a.js.map": "/static/js/main.87eb9d6a.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7dcf207.css",
+    "static/js/main.87eb9d6a.js"
+  ]
+}
