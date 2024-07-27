@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+<head>
+    <title>CS416 Final Project</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body onload="loadSceneOne(); loadSceneTwo(); loadSceneThree();"> 
+    <div>
+        <h1>Automobile Efficiency in 2017</h1>
+        <h2>by Brian Loeza Ballinger</h2>
+        <br>
+        <h3>Cars are part of the everyday lives of millions of people across the globe. This visualization seeks to help users understand city and highway mpg further and what can affect them.</h3>
+        <br>
+        <h3>The data in this visualization highlights metrics of cars efficiency in 2017.<br>
+            Specifically, we will be looking at Average City and Highway MPG, the effect of the number of engine cylinders on mileage, and the mileage comparison of fuel types.</h3>
+        <br>
+        <br>
+        <h3>You can use these links here to navigate between sections of the visualization. Upon scrolling these will show at the top of the screen in a navigation bar.</h3><br>
+        <div class="navbar">
+            <h3><a href="#sceneOneStart" class="styled-link">Gas Mileage in 2017</a> <a href="#sceneTwoStart" class="styled-link">Effect of Number of Cylinders</a> <a href="#sceneThreeStart" class="styled-link">Fuel Type Comparison</a></h3>
+        </div>  
+    </div>
+    <br><br><br>
+    <div id="sceneOneStart">
+        <h2>Miles per Gallon in 2017</h2>
+        <h3>Many cars get many different MPG. This chart here shows the aggregated City MPG and Highway MPG of various major car brands in 2017. <br> Hovering over data points will show make and exact aggregated MPG.
+            <br>The buttons in the bottom right of the chart allow the user to switch between City MPG and Highway MPG.</h3>
+    </div>
+    <div id="sceneOneContainer">
+        <div id="sceneOneButtons">
+            <button id="showCityMPG" onclick="changeMPG('city')">Average City MPG</button>
+            <button id="showHighwayMPG" onclick="changeMPG('highway')">Average Highway MPG</button>
+        </div>
+        <div id="sceneOne"></div>
+    </div>
+    <br><br><br><br><br><br>
+    <div id="sceneTwoStart">
+        <h2>The Effect of Engine Cylinders on MPG</h2>
+        <h3>This graph shows aggregated engine cylinders based on make of car. It also uses the same x axis (Make) ordering as the last graph. As is shown, there is an obvious trend of more engine cylinders having a worse aggregate MPG.
+            <br>Hovering over each bar will display a tooltip with make and number of engine cylinders. <br>
+            There are annotaions present in this chart for MPG reference. The red line represents city mpg and the light blue line represents highway mpg.</h3>
+    </div>   
+    <div id="sceneTwoContainer">
+        <div id="sceneTwo"></div>
+    </div>
+    <br><br><br><br><br><br>
+    <div id="sceneThreeStart">
+        <h2>MPG of Different Fuel Types</h2>
+        <h3>This table shows the maximum and minimum city and highway MPG based on fuel type. By looking at the data, there is a clear indication that electric cars have the highest MPG versus diesel having the worst. 
+            <br>There are buttons available for the user to switch between City MPG and Highway MPG.</h3>
+    </div>
+    <div id="sceneThreeContainer">
+        <div id="sceneThreeButtons">
+            <button id="switchToCityMPG" onclick="updateTable('AverageCityMPG')">Show City MPG</button>
+            <button id="switchToHighwayMPG" onclick="updateTable('AverageHighwayMPG')">Show Highway MPG</button>
+        </div>
+        <div id="sceneThree"></div>
+    </div>
+    <br><br><br><br><br><br>
+    <script src="vis.js"></script>
+</body>
+
+</html>
